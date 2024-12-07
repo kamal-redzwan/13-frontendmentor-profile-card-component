@@ -119,3 +119,14 @@ body {
   position: absolute;
   z-index: 1;
 }
+
+
+@media screen and (min-width: 600px) {
+  body {
+    background: url(./images/bg-pattern-top.svg) top -600px left -150px / 60%
+        no-repeat,
+      url(./images/bg-pattern-bottom.svg) bottom -600px right -150px / 60%
+        no-repeat,
+      var(--clr-primary-dark-cyan);
+  }
+}
